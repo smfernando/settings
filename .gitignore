@@ -1,0 +1,18 @@
+# Ignore everything first:
+
+*
+#Then unignore the following
+
+!.gitignore
+#settings
+
+!/inc/
+/inc/*
+!/inc/settings-page.php
+
+#parts
+!/template-parts/
+/template-parts/*
+!/template-parts/settings-content.php
+
+##End
